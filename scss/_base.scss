@@ -1,0 +1,28 @@
+//variables
+$colorAside:linear-gradient(180deg, rgba(118,25,204,1) 48%, rgba(255,0,0,1) 69%);
+$colorRojo:rgba(255,0,0,1);
+$colorMorado:rgb(120, 35, 189);
+$tamImgFila1:350px;
+$tamImgFila2:300px;
+$tamImgFila3:400px;
+$tamHeader:70px;
+$tamFooter:30px;
+$marginBod:100px;
+$colorFont:white;
+$tamImgMovil:250px;
+//mixins
+@mixin breakpoint($point) {
+    @if $point=="small"{
+        @media (max-width:420px) {
+            @content;
+            
+        }
+    }
+} 
+aside{
+    @include breakpoint(small){
+        display: none;
+       
+    }
+}
+

@@ -1,0 +1,198 @@
+@media (max-width: 420px) {
+  aside {
+    display: none;
+  }
+}
+
+aside button img {
+  height: 20px;
+}
+
+body {
+  width: 80%;
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 5% 26% 26% 26% 10%;
+  grid-template-rows: 10% 25% 25% 25% 10%;
+  column-gap: 40px;
+  row-gap: 50px;
+  margin-top: 40px;
+}
+body header {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  color: white;
+  background: #7823bd;
+  height: 70px;
+}
+body header img {
+  height: 70px;
+  float: left;
+}
+body header h2 {
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+}
+body header .perfil {
+  float: right;
+  height: 50px;
+  margin: 10px;
+}
+body header a {
+  float: right;
+  margin: 30px;
+  color: aliceblue;
+}
+body aside {
+  grid-column: 1/2;
+  grid-row: 2/5;
+  float: left;
+  margin-top: 40px;
+  background: linear-gradient(180deg, #7619cc 48%, red 69%);
+}
+body aside button {
+  text-align: center;
+  margin: 20px;
+}
+body footer {
+  grid-column: 1/6;
+  grid-row: 5/6;
+  background-color: red;
+  height: 30px;
+  margin-top: 100px;
+}
+body .chart {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  margin-left: 100px;
+}
+body .chart img {
+  width: 350px;
+}
+body .chart2 {
+  grid-column: 4/6;
+  grid-row: 2/2;
+}
+body .chart2 img {
+  width: 350px;
+}
+body .chart3 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin: auto;
+}
+body .chart3 img {
+  width: 300px;
+}
+body .chart4 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  margin: auto;
+}
+body .chart4 img {
+  width: 300px;
+}
+body .chart5 {
+  grid-column: 4/6;
+  grid-row: 3/4;
+  margin: auto;
+}
+body .chart5 img {
+  width: 300px;
+}
+body .chart6 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  margin: auto;
+}
+body .chart6 img {
+  width: 400px;
+}
+
+@media (max-width: 420px) {
+  body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    margin: 0px;
+  }
+  body header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    background: #7823bd;
+    height: 70px;
+  }
+  body header img {
+    height: 70px;
+    float: left;
+  }
+  body header h2 {
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+  }
+  body header .perfil {
+    display: none;
+  }
+  body aside {
+    grid-column: 1/2;
+    grid-row: 2/5;
+    float: left;
+    margin-top: 40px;
+    background: linear-gradient(180deg, #7619cc 48%, red 69%);
+  }
+  body footer {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    background-color: red;
+    height: 30px;
+    margin-top: 100px;
+  }
+  body .chart {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 0px;
+  }
+  body .chart img {
+    width: 250px;
+  }
+  body .chart2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  body .chart2 img {
+    width: 250px;
+  }
+  body .chart3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  body .chart3 img {
+    width: 250px;
+  }
+  body .chart4 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  body .chart4 img {
+    width: 250px;
+  }
+  body .chart5 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+  body .chart5 img {
+    width: 250px;
+  }
+  body .chart6 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  body .chart6 img {
+    width: 250px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

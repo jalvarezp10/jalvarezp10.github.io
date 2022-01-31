@@ -1,0 +1,244 @@
+@import "_base";
+@import "_components";
+body{
+    width: 80%;
+    margin: $marginBod;
+    display: grid;
+    grid-template-columns:5% 26% 26% 26% 10%;
+    grid-template-rows: 10% 25% 25% 25% 10% ;
+    column-gap: 40px;
+    row-gap: 50px;
+    margin-top: 40px;
+    header{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        color: $colorFont;
+        background: $colorMorado;
+        height:$tamHeader;
+        img{
+            height: $tamHeader;
+            float: left;
+        }
+        h2{
+            text-align: center;
+            float: left;
+            margin-left: 20px;
+            
+        }
+        
+        .perfil{
+            float: right;
+            height: 50px;
+            margin: 10px;
+
+
+        }
+        a{
+            float: right;
+            margin: 30px;
+            color: aliceblue;
+        }
+
+    }
+    aside{
+        grid-column: 1/2;
+        grid-row: 2/5;
+        float: left;
+        margin-top: 40px;
+        background: $colorAside;
+        button{
+            text-align: center;
+            margin: 20px;
+
+        }
+        
+        
+        
+    }
+    footer{
+        grid-column: 1/6;
+        grid-row: 5/6;
+        background-color: $colorRojo;
+        height: $tamFooter;
+        margin-top: $marginBod;
+    
+    }
+    
+   
+    .chart{
+        grid-column: 2/4;
+        grid-row: 2/3;
+        margin-left: $marginBod;
+        img{
+            width:$tamImgFila1;
+        }
+        
+    }
+    .chart2{
+        grid-column: 4/6;
+        grid-row: 2/2;
+        img{
+            width: $tamImgFila1;
+        }
+        
+    }
+    .chart3{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: auto;
+        img{
+            width:$tamImgFila2;
+        }
+        
+        
+    }
+    .chart4{
+        grid-column: 3/4;
+        grid-row: 3/4;
+        margin: auto;
+        img{
+            width:$tamImgFila2;
+        }
+        
+        
+    }
+    .chart5{
+        grid-column: 4/6;
+        grid-row: 3/4;
+        margin: auto;
+        img{
+            width:$tamImgFila2;
+        }
+        
+    }
+    .chart6{
+        grid-column: 3/4;
+        grid-row: 4/5;
+        margin: auto;
+        img{
+            width:$tamImgFila3;
+        }
+        
+        
+    }
+    
+
+}
+
+@media (max-width:420px) {
+    body{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto ;
+        margin: 0px;
+        header{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            color: $colorFont;
+            background: $colorMorado;
+            height:$tamHeader;
+            img{
+                height: $tamHeader;
+                float: left;
+            }
+            h2{
+                text-align: center;
+                float: left;
+                margin-left: 20px;
+                
+            }
+            .perfil{
+                display: none;
+            }
+    
+        }
+        aside{
+            grid-column: 1/2;
+            grid-row: 2/5;
+            float: left;
+            margin-top: 40px;
+            background: $colorAside;
+            
+            
+            
+        }
+        footer{
+            grid-column: 1/2;
+            grid-row: 8/9;
+            background-color: $colorRojo;
+            height: $tamFooter;
+            margin-top: $marginBod;
+        
+        }
+        
+       
+        .chart{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            margin-left: 0px;
+            
+            img{
+                width:$tamImgMovil;
+            }
+            
+        }
+        .chart2{
+            grid-column: 1/2;
+            grid-row: 3/4;
+            img{
+                width: $tamImgMovil;
+            }
+            
+        }
+        .chart3{
+            grid-column: 1/2;
+            grid-row: 4/5;
+            
+            img{
+                width:$tamImgMovil;
+            }
+            
+            
+        }
+        .chart4{
+            grid-column: 1/2;
+            grid-row: 6/7;
+            
+            img{
+                width:$tamImgMovil;
+            }
+            
+            
+        }
+        .chart5{
+            grid-column: 1/2;
+            grid-row: 7/8;
+           
+            img{
+                width:$tamImgMovil;
+            }
+            
+        }
+        .chart6{
+            grid-column: 1/2;
+            grid-row: 5/6;
+            
+            img{
+                width:$tamImgMovil;
+            }
+            
+            
+        }
+        
+            
+    
+    }
+    
+    
+}
+
+
+
+
+
+ 
